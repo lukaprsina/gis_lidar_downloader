@@ -1,0 +1,9 @@
+http://gis.arso.gov.si/lidar/gkot/b_14/D48GK/GK_500_86.zlas
+
+http://gis.arso.gov.si/lidar/otr/b_14/D48GK/GKR_500_86.zlas
+
+http://gis.arso.gov.si/lidar/gkot/laz/b_14/D48GK/GK_500_86.laz
+
+http://gis.arso.gov.si/lidar/otr/laz/b_14/D48GK/GKR_500_86.laz
+
+http://gis.arso.gov.si/lidar/dmr1/b_14/D48GK/GK1_500_86.asc

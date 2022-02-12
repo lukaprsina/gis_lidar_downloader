@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'lidar'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=lidar",
+                    "--package=lidar"
+                ],
+                "filter": {
+                    "name": "lidar",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "-p",
+                "gkot",
+                "-1",
+                "510_74",
+                "-2",
+                "511_76",
+                "-f",
+                "zlas",
+                "-a",
+                "b14",
+                "-s",
+                "D96TM",
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'lidar'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=lidar",
+                    "--package=lidar"
+                ],
+                "filter": {
+                    "name": "lidar",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
